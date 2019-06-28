@@ -9,7 +9,7 @@
                                 <localhost/>
                             </registration>
                             <tags>
-                                <member>StrictPolicyTAG</member>
+                                <member>{{ tag_name }}</member>
                             </tags>
                             <target>destination-address</target>
                             <action>add-tag</action>

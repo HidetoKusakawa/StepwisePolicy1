@@ -27,19 +27,24 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
-  - name: hostname
-    description: Firewall hostname
-    default: myFirewall
+  - name: tag_name
+    description: Tag name to step to strict policy
+    default: mytag
     type_hint: text
-  - name: choices
-    description: sample dropdown list
-    default: choices
+  - name: tag_color of strict tag
+    description: color
+    default: red
     type_hint: dropdown
     dd_list:
-      - key: option1
-        value: option1
-      - key: option2
-        value: option2
+      - Key: blue
+        value: color3
+      - key: green
+        value: color2
+      - key: orange
+        value: color6
+      - key: red
+        value: color1
+ 
 # ---------------------------------------------------------------------
 # end of variables section
 
@@ -51,8 +56,14 @@ snippets:
   - name: Tags
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/tag/
     file: Tags.xml
+  - name: DynamicAddressGroup
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address-group
+    file: DynamicAddressGroup.xml
   - name: logforwardingProfiles
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/log-settings/profiles/
     file: logforwardingProfiles.xml
+  - name: Security_rules
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules
+    file: Security_rules.xml
 # ---------------------------------------------------------------------
 # end of snippets section

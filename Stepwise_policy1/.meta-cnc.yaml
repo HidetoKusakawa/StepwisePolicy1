@@ -1,7 +1,7 @@
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: Stepwise_Policy_Threat
+name: mySkillet
 # label used for menu selection
 label: my_skillet_label
 description: This Skillet is to setup Pre-defined Log filter as Stepwise Policy
@@ -31,8 +31,8 @@ variables:
     description: Tag name to step to strict policy
     default: mytag
     type_hint: text
-  - name: tag_color of strict tag
-    description: color
+  - name: tag_color
+    description: color of strict tag
     default: red
     type_hint: dropdown
     dd_list:

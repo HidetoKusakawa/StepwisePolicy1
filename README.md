@@ -37,7 +37,7 @@ Configure a Log forwarding with some filter and an action adding the Tag with pr
 Configure a sampled base-line security policy with the Log warding  
 Configure a strict security policy for tagged ip address.  
 
-            
+<img src="https://github.com/HidetoKusakawa/StepwisePolicy1/blob/master/Stepwise_policy1/Images/fugire1.jpg">  
 
 ### Variable:  
 Tag name, Tag color, Dynamic IP list name,log forwarding name, filter name….  
@@ -53,10 +53,16 @@ Tag name, Tag color, Dynamic IP list name,log forwarding name, filter name….
 ~~~~
 
 ### Strict Policy:
+~~~~
   Source Tagged ip address　-> any with strict profile
+~~~~
+  
+  
+
+<img src="https://github.com/HidetoKusakawa/StepwisePolicy1/blob/master/Stepwise_policy1/Images/fugire2.jpg">
 
 
-
+<img src="https://github.com/HidetoKusakawa/StepwisePolicy1/blob/master/Stepwise_policy1/Images/fugire3.jpg">  
 
 
 

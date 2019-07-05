@@ -11,7 +11,7 @@ SEs and Partners
 Skillet Details  
 Authoring Group:  Datacenter Virtualization  
 Documentation:  Docouments about Auto-tag and log forwarding  
-[ncxx-sl-lab](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/configure-log-forwarding.html)
+[PAN-OS configuration guide about auto tag](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/configure-log-forwarding.html)
 
 Github Location:  https://
 PAN-OS Supported:  tested version is PAN-OS 9.0  

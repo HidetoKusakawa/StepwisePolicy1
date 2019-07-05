@@ -1,14 +1,15 @@
-# StepwisePolicy1
+# *StepwisePolicy1*
 Predefined Log-Filter of threat type and severity with Auto-Tag for stepwise security policies  
 
 
+------------------------------------------------------------------------------------------------------------
 
 
-##Brief Description
+## *Brief Description*  
 This is a skillet configuring predefined auto tag filter to adjust the security policy on the endpoint’s log.  
-Target Audience  
+## *Target Audience*  
 SEs and Partners  
-Skillet Details  
+## *Skillet Details*  
 Authoring Group:  Datacenter Virtualization  
 Documentation:  Docouments about Auto-tag and log forwarding  
 [PAN-OS configuration guide about auto tag](https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/monitoring/configure-log-forwarding.html)
